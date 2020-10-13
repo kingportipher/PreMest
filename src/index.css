@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(176, 208, 236);
+}
+nav ul{
+    list-style: none;
+    padding: 0px;
+    display: block;
+    clear: right;
+    padding-left: 4px;
+    height: 24px;
+}
+nav ul li{
+    display: inline;
+    padding: 0px 20px 5px 10px;
+    height: 24px;
+    border-right: 1px solid #ccc;
+    background-color: rgb(129, 145, 155);
+    
+}
+nav ul li a{
+    color: rgb(43, 63, 80);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #fff;
+}
+
+.section-body{
+    background-color: rgb(190, 221, 233);
+}
+
+img{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+hr{
+    width: 200px;
+}
+.section-header{
+    padding: 10px;
+    text-align: center;
+    text-shadow: #ccc;
+
+}
+form{
+    float:right;
+}
+
+p{
+    padding-top: 0mm;
+    padding-left: 10mm;
+    padding-bottom: 10mm;
+}
+h3{
+    font-weight: bold;
+}
+.buildings{
+    float: right;
+}
+
+.checkbox{
+    display:flex;
+   
+    
+}
+.newform{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 20px 0;
+    width: 700%;
+    border-bottom: 1px solid #cecece;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #333;
+    
+}
+input[type=checkbox]{
+    margin-right: 10ex;
+}
